@@ -21,7 +21,6 @@ public class BookRouterConfig {
 		
 	    return RouterFunctions.route()
 	    		.GET("/reactive-books",bookHandler::getBooks)
-	    		.POST("/reactive-books",bookHandler::createBooks)
 	    		.build();
 	    
 	}
